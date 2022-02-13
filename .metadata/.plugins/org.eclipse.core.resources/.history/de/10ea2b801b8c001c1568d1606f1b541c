@@ -1,0 +1,23 @@
+package com.demo;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.MetadataSources;
+
+public class Main {
+	//SessionFactory
+	StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+	
+	//Session
+	
+	//start the transaction
+	
+	//commit the transaction
+	
+	//error-> roll-back
+	
+	//session close
+	
+	//session-factory close
+}

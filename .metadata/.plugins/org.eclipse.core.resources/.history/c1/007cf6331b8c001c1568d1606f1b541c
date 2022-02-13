@@ -1,0 +1,17 @@
+package com.demo;
+
+public class Main {
+	//SessionFactory
+	
+	//Session
+	
+	//start the transaction
+	
+	//commit the transaction
+	
+	//error-> roll-back
+	
+	//session close
+	
+	//session-factory close
+}
