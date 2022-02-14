@@ -113,4 +113,21 @@
 			<item value="C:\Users\ve00ym318\Documents\advance java practice\Day3_EmpCRUD"/>
 		</list>
 	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\ve00ym318\Desktop\JAVA PRACTICE CONTENT\ymsli_stuff_jan_22-master\5. hibernate and tools\Hibernate Jpa stuff\3. code and excercises\6.elemet-collection"/>
+			<item value="C:\Users\ve00ym318\Desktop\JAVA PRACTICE CONTENT\ymsli_stuff_jan_22-master\5. hibernate and tools\Hibernate Jpa stuff\3. code and excercises\5.many-2-many-bi"/>
+			<item value="C:\Users\ve00ym318\Desktop\JAVA PRACTICE CONTENT\ymsli_stuff_jan_22-master\5. hibernate and tools\Hibernate Jpa stuff\3. code and excercises\4.one-2-many-bi"/>
+			<item value="C:\Users\ve00ym318\Desktop\JAVA PRACTICE CONTENT\ymsli_stuff_jan_22-master\5. hibernate and tools\Hibernate Jpa stuff\3. code and excercises\3.one-one-one-bi"/>
+			<item value="C:\Users\ve00ym318\Desktop\JAVA PRACTICE CONTENT\ymsli_stuff_jan_22-master\5. hibernate and tools\Hibernate Jpa stuff\3. code and excercises\2.one-one-one"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
 </section>

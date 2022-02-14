@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ve00ym318\Documents\hibernate practice\hello_hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,11 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="hibdemo"/>
 			<item value="com.demo"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="hibernate_basics"/>
 			<item value="hello_hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
