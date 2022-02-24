@@ -36,7 +36,6 @@ private SessionFactory factory;
 
 	@Override
 	public Optional<User> getUser(String username, String password) throws UserNotFoundException {
-		User user = null;
 		Session session = factory.openSession();
 		
 		List<User> users = session

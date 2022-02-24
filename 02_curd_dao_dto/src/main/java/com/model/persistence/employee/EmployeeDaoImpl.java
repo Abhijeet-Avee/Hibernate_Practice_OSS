@@ -22,7 +22,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	
 	@Override
 	public Employee addEmployee(Employee employee) {
-		Session session = factory.openSession();
+		Session session = factory.getCurrentSession();
 		Transaction tx = session.getTransaction();
 		try {
 			tx.begin();
@@ -38,7 +38,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public void deleteEmployee(int id) {
-		Session session = factory.openSession();
+		Session session = factory.getCurrentSession();
 		Transaction tx = session.getTransaction();
 		try {
 			tx.begin();
@@ -56,7 +56,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public Employee updateEmployee(int id, Employee emp) {
-		Session session = factory.openSession();
+		Session session = factory.getCurrentSession();
 		Transaction tx = session.getTransaction();
 		Employee employee=null;
 		try {
@@ -78,14 +78,14 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public List<Employee> getAll() throws DataAccessException {
-		Session session = factory.openSession();
+		Session session = factory.getCurrentSession();
 		List<Employee> employees = session.createQuery("select e from Employee e", Employee.class).getResultList();
 		return employees;
 	}
 
 	@Override
 	public Optional<Employee> getById(int id) throws EmployeeNotFoundException {
-		Session session = factory.openSession();
+		Session session = factory.getCurrentSession();
 		Employee employee = session.get(Employee.class, id);
 		session.close();
 		return Optional.ofNullable(employee);
